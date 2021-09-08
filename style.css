@@ -1,0 +1,174 @@
+body {
+  margin: 0px auto;
+  max-width: 85%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+:root {
+  --red: #dc2626;
+  --white: #ffffff;
+  --grey: #9ca3af;
+  --ofwhite: #e5e7eb;
+  --primary-color: #7c3aed;
+  --blue: #0a66c2;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+}
+
+.link {
+  font-size: medium;
+  text-decoration: none;
+}
+
+.nav-bar {
+  margin-top: 0%;
+  background-color: var(--red);
+  border-bottom-left-radius: 1.5rem;
+  padding-inline-start: 0px;
+}
+
+.nav-bar h1 {
+  text-align: center;
+  margin: auto;
+  padding-top: 1rem;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.nav-bar .nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.nav-bar .link {
+  padding: 1rem 1rem;
+  color: var(--white);
+}
+
+.link.link-active {
+  font-weight: bold;
+}
+
+.hv:hover {
+  color: black;
+}
+
+.cover-img {
+  text-align: center;
+  margin: auto;
+}
+
+.cover-img .avatar {
+  max-width: 80%;
+  width: 500px;
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.details-avatar {
+  display: block;
+}
+
+#name {
+  color: var(--blue);
+}
+
+.gr {
+  background-color: var(--ofwhite);
+}
+
+.section {
+  font-family: sans-serif;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+.container-mid {
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+  width: 100%;
+  padding: 0rem 1rem;
+}
+
+.project-link {
+  display: block;
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: black;
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 2rem;
+}
+
+.project-desc {
+  font-weight: 300;
+}
+
+.blogs-link {
+  display: block;
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  background-color: black;
+  color: var(--white);
+}
+
+/* footer */
+
+.fotr {
+  background-color: var(--red);
+  color: var(--white);
+  border-top-left-radius: 1.3rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fotr h2 {
+  margin-bottom: 1rem;
+}
+
+.item {
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.img-item.li{
+  padding-top: 0.3rem;
+}
+
+.footer .link {
+  color: var(--white);
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-inline-start: 0rem;
+  margin-bottom: 0rem;
+}
+
+.num {
+  padding: 0 0.2rem;
+}
+
+.email {
+  padding: 0 0.4rem;
+}
+
+.bold{
+  font-weight: 600;
+}
