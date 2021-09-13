@@ -1,0 +1,151 @@
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --primary: #7c3aed;
+  --gray: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+.sm-text {
+  font-size: 0.8rem;
+}
+
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+}
+
+.link-prim {
+  background-color: var(--primary);
+  color: var(--gray);
+  border-radius: 0.5rem;
+  min-width: 140px;
+  width: max-content;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.link-secon {
+  color: var(--primary);
+  border-radius: 0.5rem;
+  min-width: 140px;
+  width: max-content;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 1px solid var(--primary);
+}
+
+.list-unordered {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  padding: 1rem 0rem;
+  background-color: var(--primary);
+  color: var(--gray);
+  border-bottom-left-radius: 1rem;
+}
+
+.nav-container {
+  padding: 0rem 1rem;
+}
+
+.brand {
+  font-weight: bold;
+}
+
+.nav-container ul {
+  text-align: right;
+}
+
+.nav-container li {
+  list-style: none;
+  display: inline-block;
+  padding: 0rem 0.8rem;
+}
+
+.navigation a {
+  color: var(--gray);
+}
+
+.navigation .active {
+  font-weight: bold;
+}
+
+.img-container {
+  max-width: 600px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+}
+
+.img-container img {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.avatar {
+  color: var(--dark-gray);
+}
+
+.section {
+  padding: 2rem 0rem;
+  display: block;
+}
+
+.section h2 {
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.ofw {
+  background-color: var(--gray);
+}
+
+.footer-container {
+    background-color: var(--primary);
+    color: white;
+    padding: 2rem 0rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.footer-container .heading{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.footer-container li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cntr{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    max-width: 600px;
+}
