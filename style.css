@@ -109,6 +109,7 @@ a {
   color: #fff;
   margin: 1rem auto;
   border-radius: 2rem;
+  min-width: fit-content;
 }
 
 .project-desc {
@@ -123,6 +124,7 @@ a {
   border-radius: 2rem;
   background-color: black;
   color: var(--white);
+  min-width: fit-content;
 }
 
 /* footer */
